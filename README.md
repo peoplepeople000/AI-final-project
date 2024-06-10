@@ -2,6 +2,29 @@
 ## Introduction
 This is a web app for user to input mood and genre, and it can generate music by using MusicLM.
 
+## Pre-require
+### Package
+* torch
+* torchaudio
+* torchvision
+* einops
+* vector-quantize-pytorch
+* librosa
+* torchlibrosa
+* ftfy
+* tqdm
+* encodec
+* gdown
+* accelerate
+* beartype
+* joblib
+* h5py
+* scikit-learn
+* wget
+* numpy
+* transformers
+* flask
+
 ## How to use
 You need the musicLM pretrained-model.
 It can fetch on the web https://github.com/zhvng/open-musiclm/
