@@ -13,7 +13,6 @@ import numpy as np
 import math
 import copy
 import re
-from transformers
 from flask import Flask, request, jsonify,send_file
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
